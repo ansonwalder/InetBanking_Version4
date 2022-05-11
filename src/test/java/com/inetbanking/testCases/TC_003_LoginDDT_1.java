@@ -11,7 +11,7 @@ import com.inetbanking.pageObjects.HomePage;
 import com.inetbanking.pageObjects.LoginPage;
 import com.inetbanking.utilities.XLUtils;
 
-public class TC_002_LoginDDT extends BaseSteps {
+public class TC_003_LoginDDT_1 extends BaseSteps {
 
 	@Test(dataProvider = "LoginData")
 	public void loginDDT(String user, String pwd) {
